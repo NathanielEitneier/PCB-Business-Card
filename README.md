@@ -40,9 +40,9 @@ This was my first time taking a board from schematic to a physically assembled, 
 ## Hardware files
 
 - [View Schematic](PCB-BusinessCard/hardware/PCB_BusinessCard.kicad_sch)
-- [Bill of Materials](./hardware/bom.csv)
-- [Link to Demo Video](./images/DemoVid1.mov)
-- [Link to Demo Video2 ](./images/DemoVid2.mov)
+- [Bill of Materials](PCB-BusinessCard/hardware/bom.csv)
+- [Link to Demo Video](PCB-BusinessCard/images/DemoVid1.mov)
+- [Link to Demo Video2 ](PCB-BusinessCard/images/DemoVid2.mov)
 
 ## Contact
 
