@@ -2,19 +2,19 @@
 
 A working business card designed, programmed, debugged, and soldered by myself.
 
-![Board photo](./images/card-front.jpg)
-*(swap in a real photo of the soldered board — this is the first thing anyone sees)*
+<img width="1440" height="1920" alt="image" src="https://github.com/user-attachments/assets/5e13f047-8da9-4247-b39b-4c5c84bda1ea" />
+
 
 ## What this is
 
-My first PCB design: a business-card-sized board built around an ATtiny84, with an onboard NFC tag and a small interactive game built into the card itself. Tap it with a phone and it links straight to this GitHub / my site. I wanted this to be a real learning project rather than a quick checkbox — every part of it, from the pin mapping to the programming order, was a deliberate decision.
+My first PCB design: a business-card-sized board built around an ATtiny84, with an onboard NFC tag and a small interactive game built into the card itself. Tap it with a phone and it links straight to this GitHub. I wanted this to be a real learning project, so I designed and programmed everything independently.
 
 ## Features
 
 - **NFC tap-to-link** — taps open my GitHub / personal site directly from the card
 - **Onboard game** — playable using the card's built-in switches and LEDs
 - **ATtiny84-driven** — no separate dev board, just the chip on the card itself
-- **Custom PCB** — designed, ordered, and hand-assembled from scratch (~10 boards ordered)
+- **Custom PCB** — designed, ordered, and hand-assembled from scratch (5 boards ordered)
 
 ## How it works
 
@@ -24,24 +24,24 @@ My first PCB design: a business-card-sized board built around an ATtiny84, with 
 | Switches | Arduino-equivalent pins 2, 3, 4 |
 | MCU | ATtiny84 |
 
-The game logic runs entirely on the ATtiny84, reading input from the three switches and driving the three LEDs as output/feedback. [Add a line here on the actual game rules — e.g. "press switches in the correct sequence," "reaction-time game," etc.]
+The game logic runs entirely on the ATtiny84, reading input from the three switches and driving the three LEDs as output/feedback. It is a memorization game where the LEDs will blink in a sequence and you must press the corresponding buttons that match that sequence to continue. For each sequence you get right another step is added. The game is won when 15 steps is reached.
 
 ## Build notes
 
 - Programmed the ATtiny84 **before** soldering it onto the card, to avoid the risk of a bad reflow bricking a chip I couldn't easily reprogram in place
-- [PCB design software, e.g. KiCad — fill in]
-- [NFC chip/module used — fill in]
-- Ordered ~10 boards for assembly and handout
+- The PCB was designed in KiCad
+- nt3h1101 nfc chip
+- Ordered 5 boards for assembly and handout
 
 ## What I learned
 
-This was my first time taking a board from schematic to a physically assembled, working product. [Add a specific challenge or fix here — e.g. a routing mistake, a programming gotcha, a soldering lesson. This section is what turns the repo into a portfolio piece, so it's worth a real sentence or two.]
-
+This was my first time taking a board from schematic to a physically assembled, working product. I gained a deeper understanding of the design process, as I completed each step I saw how the steps build upon each other.
 ## Hardware files
 
-- [Link to schematic / KiCad project files]
-- [Link to BOM (bill of materials)]
-- [Link to Gerber files, if included]
+- [Link to schematic](./hardware/PCB_BusinessCard.kicad_sch)
+- [Bill of Materials](./hardware/bom.csv)
+- [Link to Demo Video](./images/DemoVid1.mov)
+- [Link to Demo Video2 ](./images/DemoVid2.mov)
 
 ## Contact
 
