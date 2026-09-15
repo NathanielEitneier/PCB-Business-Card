@@ -39,7 +39,7 @@ The game logic runs entirely on the ATtiny84, reading input from the three switc
 This was my first time taking a board from schematic to a physically assembled, working product. From this I gained a deeper understanding of the design process and how each step builds upon the last. This made me realize the importance of good habits like proper labeling and footprints on schematics when designing a PCB, because any short cuts taken will come back to haunt you later on in the design. I learned a few lessons the hard way. Programming the board with a USBasp did not work for me after hours of trying, and I eventually found a way to do it with a Arduino Uno R3. Additionally, soldering the SMD MCUs was a nightmare and if I make this project again I will switch to a through-hole MCU. Overall, the most important thing I learned from this was that I am capable of teaching myself and attempting projects that I may not have the skills to complete when I start them.
 ## Hardware files
 
-- [Link to schematic](./hardware/PCB_BusinessCard.kicad_sch)
+- [View Schematic](PCB-BusinessCard/hardware/PCB_BusinessCard.kicad_sch)
 - [Bill of Materials](./hardware/bom.csv)
 - [Link to Demo Video](./images/DemoVid1.mov)
 - [Link to Demo Video2 ](./images/DemoVid2.mov)
